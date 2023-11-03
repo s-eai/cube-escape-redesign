@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+#header-menu li:nth-of-type(2) > a {
+    color :  #f69b01;
+}
+#suyu-main-content {
+    background: #222;
+    width : 100%;
+    /* height : 1000px; */
+    padding-top : 130px;
+    /* margin : 0 auto; */
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    color : white;
+}
+
+#suyu-theme {
+    /* width : 1200px; */
+    width : 95%;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+#suyu-theme h2 {
+    font-family: 'GmarketSansBold';
+    font-size : 1.6rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+#suyu-theme p {
+    font-family: 'GmarketSansMedium';
+    font-size : 0.85rem;
+    text-align: center;
+    line-height : 170%;
+    margin : 20px 0;
+}
+
+.theme-content {
+    margin : 0 auto;
+    display : flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.theme-info {
+    position : relative;
+    width : 30%;
+    text-align: left;
+    border : 10px solid black;
+    border : 3% solid red;
+    margin : 15px;
+}
+.theme-info > img {
+    width : 100%;
+}
+.theme-txt {
+    position : absolute;
+    top : 0; left : 0;
+    width : 100%;
+    height : 100%;
+    background: rgba(0, 0, 0, 0.95);
+    color : white;
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction : column;
+
+    display : none;
+}
+.theme-txt li {
+    width : 100%;
+    margin : 1px 0;
+    padding : 0 10px;
+    line-height: 160%;
+    font-family: 'GmarketSansMedium';
+    font-size : 0.8rem;
+    letter-spacing: -0.5px;
+}
+.theme-txt li:first-of-type {
+    margin-bottom: 5px;
+}
+.theme-txt li b {
+    font-size : 0.9rem;
+}
+.theme-txt li a {
+    color : white;
+    /* margin-top : 10px; */
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding : 5px 0 3px;
+    text-align: center;    
+    box-sizing: content-box;
+    border : 1px solid white;
+}
+.theme-txt li a:hover {
+    background: #f69b01;
+    border : 1px solid #f69b01;
+}
+.level  {
+    display : flex;
+    align-items: center;
+    margin : 0;
+}
+.level  img {
+    margin-left : 5px;
+}
+.theme-txt hr {
+    width : 100%;
+    border-top : 1px solid white;
+}
+.theme-txt hr:first-of-type { 
+    margin-top : 15px; 
+}
+.theme-txt hr:last-of-type { 
+    margin-bottom : 15px; 
+}
+li.story {
+    margin : 15px 0px;    
+    font-size : 0.8rem;
+}

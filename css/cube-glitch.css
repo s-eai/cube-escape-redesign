@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+#big-banner-content h4 {
+    text-align: center;
+    color : rgba(255 255 255 / 0.8 );
+    font-size : 1.9rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'KimjungchulMyungjo-Bold';
+
+    margin: 0;
+    line-height: 0;
+
+    animation : g1 2.5s infinite;
+}
+.glitch2 {
+    color: rgba(103, 243, 217, 0.8);
+    animation : g2 2.5s infinite;
+}
+.glitch3 {
+    color: rgba(241, 111, 111, 0.8);
+    animation : g3 2.5s infinite;
+}
+#big-banner-content h4 span {
+    color : rgba(231, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+@keyframes g1 {
+    0% { 
+        transform: none;
+        opacity : 1;
+    }
+    6% {
+        transform : skew( 0.5deg , 0.5deg );
+        opacity: 0.5;
+    }
+    13% {
+        transform: none;
+        opacity : 1;
+    }
+    25% {
+        transform: none;
+        opacity : 1;
+    }
+    31% {
+        transform: skew( 0deg, 0.2deg );
+        opacity : 0.7;
+    }
+    47% {
+        transform: none;
+        opacity : 1;
+    }
+    53% {
+        transform: none;
+        opacity : 1;
+    }
+    57% {
+        transform: skew( 0.7deg , -0.3deg);
+        opacity : 0.5;
+    }
+    74% {
+        transform: none;
+        opacity : 1;
+    }
+    77% {
+        transform: skew( -0.3deg , 0.2deg);
+        opacity : 0.5;
+    }
+    100% {
+        transform: none;
+        opacity : 1;
+    }
+}
+
+@keyframes g2 {
+    0% { 
+        transform: none;
+        opacity : 0.25;
+    }
+    6% {
+        transform : translate( -2px , -3px );
+        opacity: 0.5;
+    }
+    13% {
+        transform: none;
+        opacity : 0.25;
+    }
+    25% {
+        transform: none;
+        opacity : 0.25;
+    }
+    31% {
+        transform : translate( -5px , -2px );
+        opacity : 0.5;
+    }
+    47% {
+        transform: none;
+        opacity : 0.25;
+    }
+    53% {
+        transform: none;
+        opacity : 0.25;
+    }
+    57% {
+        transform : translate( -4px , -1px );
+        opacity : 0.5;
+    }
+    74% {
+        transform: none;
+        opacity : 0.25;
+    }
+    77% {
+        transform : translate(-2px , -5px );
+        opacity : 0.5;
+    }
+    100% {
+        transform: none;
+        opacity : 0.25;
+    }
+}
+
+@keyframes g3 {
+    0% { 
+        transform: none;
+        opacity : 0.25;
+    }
+    6% {
+        transform : translate( 2px , 3px );
+        opacity: 0.5;
+    }
+    13% {
+        transform: none;
+        opacity : 0.25;
+    }
+    25% {
+        transform: none;
+        opacity : 0.25;
+    }
+    31% {
+        transform : translate( 5px , 2px );
+        opacity : 0.5;
+    }
+    47% {
+        transform: none;
+        opacity : 0.25;
+    }
+    53% {
+        transform: none;
+        opacity : 0.25;
+    }
+    57% {
+        transform : translate( 4px , 1px );
+        opacity : 0.5;
+    }
+    74% {
+        transform: none;
+        opacity : 0.25;
+    }
+    77% {
+        transform : translate(2px , 5px );
+        opacity : 0.5;
+    }
+    100% {
+        transform: none;
+        opacity : 0.25;
+    }
+}
